@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add responsive design improvements to ensure the site works well on all devices */
+
+@media (max-width: 640px) {
+  /* Mobile specific styles */
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Adjust font sizes for mobile */
+  h1 {
+    font-size: 1.875rem !important;
+  }
+  
+  h2 {
+    font-size: 1.5rem !important;
+  }
+  
+  /* Improve spacing on mobile */
+  .py-16 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .py-24 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  /* Ensure product cards look good on small screens */
+  .product-card-image {
+    height: 12rem;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  /* Tablet specific styles */
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  /* Adjust grid layouts for tablets */
+  .tablet-grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Ensure touch-friendly targets on mobile devices */
+@media (hover: none) {
+  .hover\:opacity-90:hover,
+  .hover\:bg-gray-800:hover,
+  .hover\:text-blue-300:hover {
+    transition: none !important;
+  }
+  
+  button, 
+  a, 
+  [role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Make hover effects work with touch */
+  .group:active .group-hover\:translate-y-0 {
+    transform: translateY(0);
+  }
+  
+  .group:active .group-hover\:opacity-90 {
+    opacity: 0.9;
+  }
+}
+
+/* Improve form elements on mobile */
+@media (max-width: 640px) {
+  input, 
+  select, 
+  textarea {
+    font-size: 16px !important; /* Prevent iOS zoom on focus */
+  }
+  
+  .checkout-form-grid {
+    display: block !important;
+  }
+  
+  .checkout-form-grid > div {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Fix for iOS Safari 100vh issue */
+@supports (-webkit-touch-callout: none) {
+  .min-h-screen {
+    min-height: -webkit-fill-available;
+  }
+}

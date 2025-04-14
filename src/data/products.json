@@ -1,0 +1,242 @@
+[
+  {
+    "id": "solgol-tshirt-001",
+    "name": "SOLGOL Crypto Horizon T-Shirt",
+    "price": 39.99,
+    "description": "Embrace the future with our signature Crypto Horizon T-shirt. This premium cotton blend features a gradient design inspired by blockchain technology, with the SOLGOL logo prominently displayed. Perfect for crypto enthusiasts and sports betting fans alike.",
+    "features": [
+      "Premium cotton blend (60% cotton, 40% polyester)",
+      "Futuristic gradient design",
+      "Moisture-wicking technology",
+      "Machine washable",
+      "Available in sizes S-XXL"
+    ],
+    "category": "Apparel",
+    "inStock": true,
+    "images": [
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1618354691438-25bc04584c23?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "solgol-hoodie-001",
+    "name": "SOLGOL Digital Realm Hoodie",
+    "price": 69.99,
+    "description": "Stay warm while showcasing your crypto passion with our Digital Realm Hoodie. Featuring a sleek black base with purple and light blue accents, this hoodie represents the digital frontier where sports and blockchain converge.",
+    "features": [
+      "Heavy-duty 350 GSM fabric",
+      "Kangaroo pocket with hidden phone compartment",
+      "Adjustable drawstring hood",
+      "Ribbed cuffs and hem",
+      "Embroidered SOLGOL logo"
+    ],
+    "category": "Apparel",
+    "inStock": true,
+    "images": [
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1578681994506-b8f463449011?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "solgol-cap-001",
+    "name": "SOLGOL Blockchain Cap",
+    "price": 29.99,
+    "description": "Top off your look with our Blockchain Cap, featuring a minimalist design with the SOLGOL logo. The purple and light blue embroidery on a black base creates a striking contrast that's sure to turn heads.",
+    "features": [
+      "Adjustable snapback closure",
+      "Breathable mesh panels",
+      "Embroidered logo",
+      "Curved visor",
+      "One size fits most"
+    ],
+    "category": "Accessories",
+    "inStock": true,
+    "images": [
+      "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1521369909029-2afed882baee?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1556306535-0f09a537f0a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "solgol-backpack-001",
+    "name": "SOLGOL Crypto Voyager Backpack",
+    "price": 89.99,
+    "description": "Carry your essentials in style with our Crypto Voyager Backpack. Designed with the modern crypto enthusiast in mind, this backpack features multiple compartments, including a padded laptop sleeve and hidden RFID-protected pocket for your hardware wallet.",
+    "features": [
+      "Water-resistant material",
+      "Padded laptop compartment (fits up to 17\")",
+      "RFID-protected pocket",
+      "USB charging port",
+      "Adjustable shoulder straps with breathable padding"
+    ],
+    "category": "Accessories",
+    "inStock": true,
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1581605405669-fcdf81165afa?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1622560480654-d96214fdc887?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "solgol-bottle-001",
+    "name": "SOLGOL Quantum Water Bottle",
+    "price": 34.99,
+    "description": "Stay hydrated with our Quantum Water Bottle. This vacuum-insulated bottle keeps your drinks cold for 24 hours or hot for 12 hours. The sleek design features the SOLGOL logo and a gradient finish inspired by digital landscapes.",
+    "features": [
+      "Double-wall vacuum insulation",
+      "18/8 stainless steel construction",
+      "Leak-proof lid with built-in straw",
+      "24oz capacity",
+      "BPA-free"
+    ],
+    "category": "Accessories",
+    "inStock": true,
+    "images": [
+      "https://images.unsplash.com/photo-1602143407151-7111542de6e8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1610824352934-c10d87b700cc?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1589365278144-c9e705f843ba?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "solgol-poster-001",
+    "name": "SOLGOL Crypto Revolution Poster",
+    "price": 24.99,
+    "description": "Decorate your space with our Crypto Revolution Poster. This high-quality print features a futuristic design that combines elements of blockchain technology, sports, and the digital frontier. The purple, black, and light blue color scheme perfectly represents the SOLGOL brand.",
+    "features": [
+      "Premium 250 GSM paper",
+      "Matte finish",
+      "Available in multiple sizes",
+      "Ships in protective tube",
+      "Limited edition print"
+    ],
+    "category": "Collectibles",
+    "inStock": true,
+    "images": [
+      "https://images.unsplash.com/photo-1561214115-f2f134cc4912?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1581591524425-c7e0978865fc?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1581591525275-c2e9e60ed9ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "solgol-mug-001",
+    "name": "SOLGOL Digital Dawn Mug",
+    "price": 19.99,
+    "description": "Start your day with our Digital Dawn Mug. This ceramic mug features a heat-reactive coating that reveals a hidden blockchain pattern when filled with hot liquid. The perfect gift for the crypto enthusiast in your life.",
+    "features": [
+      "11oz ceramic construction",
+      "Heat-reactive coating",
+      "Dishwasher and microwave safe",
+      "Ergonomic handle",
+      "Packaged in a gift box"
+    ],
+    "category": "Collectibles",
+    "inStock": true,
+    "images": [
+      "https://images.unsplash.com/photo-1577937927133-3b0a0c99ac98?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1570287336049-ef41c7a9c486?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "solgol-beanie-001",
+    "name": "SOLGOL Crypto Winter Beanie",
+    "price": 27.99,
+    "description": "Brave the crypto winter with our stylish beanie. Made from a soft acrylic blend, this beanie features the SOLGOL logo embroidered in our signature purple and light blue colors against a black background.",
+    "features": [
+      "Soft acrylic blend",
+      "Ribbed construction for a snug fit",
+      "Embroidered logo",
+      "One size fits most",
+      "Hand wash recommended"
+    ],
+    "category": "Apparel",
+    "inStock": true,
+    "images": [
+      "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1470161950285-9d1a7a7c3f43?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1511500118080-275313ec90a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "solgol-phonecase-001",
+    "name": "SOLGOL Blockchain Phone Case",
+    "price": 24.99,
+    "description": "Protect your phone with our Blockchain Phone Case. Featuring a sleek design with the SOLGOL logo and a subtle blockchain pattern, this case offers both style and protection for your device.",
+    "features": [
+      "Dual-layer protection",
+      "Compatible with wireless charging",
+      "Raised edges to protect screen and camera",
+      "Available for multiple phone models",
+      "Slim profile"
+    ],
+    "category": "Accessories",
+    "inStock": true,
+    "images": [
+      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1541877944-ac82a091518a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "solgol-socks-001",
+    "name": "SOLGOL Crypto Socks",
+    "price": 14.99,
+    "description": "Complete your look with our Crypto Socks. These comfortable socks feature a blockchain-inspired pattern and the SOLGOL logo. Made from a blend of cotton and elastane for the perfect fit.",
+    "features": [
+      "Cotton-elastane blend (80% cotton, 18% polyester, 2% elastane)",
+      "Reinforced heel and toe",
+      "Ribbed cuff to prevent slipping",
+      "Available in sizes S-XL",
+      "Machine washable"
+    ],
+    "category": "Apparel",
+    "inStock": true,
+    "images": [
+      "https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1589411454940-67a017535ecf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1563000215-e31a8ddcb2d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "solgol-keychain-001",
+    "name": "SOLGOL Crypto Key Chain",
+    "price": 12.99,
+    "description": "Keep your keys organized with our Crypto Key Chain. This metal key chain features the SOLGOL logo and a unique blockchain-inspired design. The perfect small gift for crypto enthusiasts.",
+    "features": [
+      "Zinc alloy construction",
+      "Laser-etched logo",
+      "Split ring attachment",
+      "Packaged in a gift box",
+      "Compact size"
+    ],
+    "category": "Collectibles",
+    "inStock": true,
+    "images": [
+      "https://images.unsplash.com/photo-1581420515590-cee76de451b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1611095973362-88e8e2557e58?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1607462109225-6b64ae2dd3cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "solgol-notebook-001",
+    "name": "SOLGOL Crypto Journal",
+    "price": 22.99,
+    "description": "Document your crypto journey with our Crypto Journal. This hardcover notebook features 192 pages of premium paper, a ribbon bookmark, and an elastic closure. The cover showcases the SOLGOL logo against a sleek black background with purple and light blue accents.",
+    "features": [
+      "Hardcover with PU leather finish",
+      "192 pages (96 sheets) of 100 GSM acid-free paper",
+      "Ribbon bookmark",
+      "Elastic closure",
+      "Inner pocket for loose papers"
+    ],
+    "category": "Collectibles",
+    "inStock": true,
+    "images": [
+      "https://images.unsplash.com/photo-1531346878377-a5be20888e57?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1544239265-ee5eedde5469?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1598620617148-c9e8ddee6711?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    ]
+  }
+]
