@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from 'react';
 import Layout from '@/components/layout/Layout';
 import CheckoutForm from '@/components/checkout/CheckoutForm';
 import { CartProvider } from '@/lib/CartContext';

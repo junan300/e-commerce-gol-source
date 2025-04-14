@@ -42,7 +42,7 @@ export default function ProductDetailPage() {
             <div className="container mx-auto px-4 text-center">
               <h1 className="text-3xl font-bold text-white mb-4">Product Not Found</h1>
               <p className="text-gray-400 mb-8">
-                We couldn't find the product you're looking for.
+                We couldn&apos;t find the product you&apos;re looking for.
               </p>
               <Link 
                 href="/products" 

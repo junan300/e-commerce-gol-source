@@ -1,8 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
 import { useCart } from '@/lib/CartContext';
-import ProductCard from '@/components/product/ProductCard';
 
 // This component will be used to add product to cart functionality
 const ProductActions = ({ product }) => {

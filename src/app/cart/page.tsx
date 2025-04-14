@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from 'react';
 import Layout from '@/components/layout/Layout';
 import Cart from '@/components/cart/Cart';
 import { CartProvider } from '@/lib/CartContext';

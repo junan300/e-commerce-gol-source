@@ -32,7 +32,7 @@ export default function ProductsPage() {
   // Sort products
   const sortProducts = (option) => {
     setSortOption(option);
-    let sortedProducts = [...filteredProducts];
+    const sortedProducts = [...filteredProducts];
     
     switch (option) {
       case 'price-low':
@@ -130,7 +130,7 @@ export default function ProductsPage() {
                 </svg>
                 <h3 className="text-xl font-medium text-white mb-2">No products found</h3>
                 <p className="text-gray-400 mb-6">
-                  We couldn't find any products matching your current filters.
+                  We couldn&apos;t find any products matching your current filters.
                 </p>
                 <button
                   onClick={() => {
