@@ -10,8 +10,19 @@ import { CartProvider } from '@/lib/CartContext';
 // Import product data
 import productData from '@/data/products.json';
 
+interface Product {
+  id: string;
+  name: string;
+  price: number;
+  description: string;
+  features: string[];
+  category: string;
+  inStock: boolean;
+  images: string[];
+}
+
 export default function Home() {
-  const [featuredProducts, setFeaturedProducts] = useState([]);
+  const [featuredProducts, setFeaturedProducts] = useState<Product[]>([]);
   
   useEffect(() => {
     // Select 4 random products to feature

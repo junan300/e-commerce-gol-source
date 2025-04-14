@@ -11,10 +11,21 @@ import Link from 'next/link';
 // Import product data
 import productData from '@/data/products.json';
 
+interface Product {
+  id: string;
+  name: string;
+  price: number;
+  description: string;
+  features: string[];
+  category: string;
+  inStock: boolean;
+  images: string[];
+}
+
 export default function ProductDetailPage() {
   const params = useParams();
-  const [product, setProduct] = useState(null);
-  const [relatedProducts, setRelatedProducts] = useState([]);
+  const [product, setProduct] = useState<Product | null>(null);
+  const [relatedProducts, setRelatedProducts] = useState<Product[]>([]);
   
   useEffect(() => {
     if (params.id) {

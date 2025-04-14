@@ -8,9 +8,20 @@ import { CartProvider } from '@/lib/CartContext';
 // Import product data
 import productData from '@/data/products.json';
 
+interface Product {
+  id: string;
+  name: string;
+  price: number;
+  description: string;
+  features: string[];
+  category: string;
+  inStock: boolean;
+  images: string[];
+}
+
 export default function ProductsPage() {
-  const [products, setProducts] = useState([]);
-  const [filteredProducts, setFilteredProducts] = useState([]);
+  const [products, setProducts] = useState<Product[]>([]);
+  const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
   const [activeCategory, setActiveCategory] = useState('All');
   const [sortOption, setSortOption] = useState('featured');
 
