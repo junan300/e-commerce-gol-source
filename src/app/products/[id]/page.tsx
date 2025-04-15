@@ -11,10 +11,21 @@ import Link from 'next/link';
 // Import product data
 import productData from '@/data/products.json';
 
+interface Product {
+  id: string;
+  name: string;
+  price: number;
+  description: string;
+  features: string[];
+  category: string;
+  inStock: boolean;
+  images: string[];
+}
+
 export default function ProductDetailPage() {
   const params = useParams();
-  const [product, setProduct] = useState(null);
-  const [relatedProducts, setRelatedProducts] = useState([]);
+  const [product, setProduct] = useState<Product | null>(null);
+  const [relatedProducts, setRelatedProducts] = useState<Product[]>([]);
   
   useEffect(() => {
     if (params.id) {
@@ -42,7 +53,7 @@ export default function ProductDetailPage() {
             <div className="container mx-auto px-4 text-center">
               <h1 className="text-3xl font-bold text-white mb-4">Product Not Found</h1>
               <p className="text-gray-400 mb-8">
-                We couldn't find the product you're looking for.
+                We couldn&apos;t find the product you&apos;re looking for.
               </p>
               <Link 
                 href="/products" 

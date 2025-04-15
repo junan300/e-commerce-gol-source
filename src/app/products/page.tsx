@@ -8,9 +8,20 @@ import { CartProvider } from '@/lib/CartContext';
 // Import product data
 import productData from '@/data/products.json';
 
+interface Product {
+  id: string;
+  name: string;
+  price: number;
+  description: string;
+  features: string[];
+  category: string;
+  inStock: boolean;
+  images: string[];
+}
+
 export default function ProductsPage() {
-  const [products, setProducts] = useState([]);
-  const [filteredProducts, setFilteredProducts] = useState([]);
+  const [products, setProducts] = useState<Product[]>([]);
+  const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
   const [activeCategory, setActiveCategory] = useState('All');
   const [sortOption, setSortOption] = useState('featured');
 
@@ -32,7 +43,7 @@ export default function ProductsPage() {
   // Sort products
   const sortProducts = (option) => {
     setSortOption(option);
-    let sortedProducts = [...filteredProducts];
+    const sortedProducts = [...filteredProducts];
     
     switch (option) {
       case 'price-low':
@@ -130,7 +141,7 @@ export default function ProductsPage() {
                 </svg>
                 <h3 className="text-xl font-medium text-white mb-2">No products found</h3>
                 <p className="text-gray-400 mb-6">
-                  We couldn't find any products matching your current filters.
+                  We couldn&apos;t find any products matching your current filters.
                 </p>
                 <button
                   onClick={() => {

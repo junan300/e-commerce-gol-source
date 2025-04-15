@@ -1,0 +1,9 @@
+{
+  "devCommand": "next dev --port 4000",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ]
+} 

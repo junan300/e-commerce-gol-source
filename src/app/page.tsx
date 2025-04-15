@@ -10,8 +10,19 @@ import { CartProvider } from '@/lib/CartContext';
 // Import product data
 import productData from '@/data/products.json';
 
+interface Product {
+  id: string;
+  name: string;
+  price: number;
+  description: string;
+  features: string[];
+  category: string;
+  inStock: boolean;
+  images: string[];
+}
+
 export default function Home() {
-  const [featuredProducts, setFeaturedProducts] = useState([]);
+  const [featuredProducts, setFeaturedProducts] = useState<Product[]>([]);
   
   useEffect(() => {
     // Select 4 random products to feature
@@ -96,7 +107,7 @@ export default function Home() {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-white mb-4">Shop by Category</h2>
               <p className="text-gray-400 max-w-2xl mx-auto">
-                Browse our collection by category to find exactly what you're looking for.
+                Browse our collection by category to find exactly what you&apos;re looking for.
               </p>
             </div>
             

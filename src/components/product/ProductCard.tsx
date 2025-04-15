@@ -51,9 +51,9 @@ const ProductCard = ({ id, name, price, image, category, description }: ProductC
       {/* Quick Add Button - Appears on Hover */}
       <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-80 py-3 px-4 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
         <button 
-          onClick={() => {
+          onClick={async () => {
             // Add to cart functionality
-            const { addItem } = require('@/lib/CartContext').useCart();
+            const { addItem } = (await import('@/lib/CartContext')).useCart();
             addItem({ id, name, price, image });
             
             // Show toast notification
